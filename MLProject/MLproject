@@ -5,5 +5,5 @@ conda_env: conda.yaml
 entry_points:
   main:
     parameters:
-      config: {type: str, default: "mlflow_train.yaml"}
+      config: {type: str, default: "../.github/workflows/mlflow_train.yaml"}
     command: "python modelling.py --config {config}"
