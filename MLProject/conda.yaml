@@ -1,10 +1,11 @@
-name: mlflow-env
+name: titanic_mlflow_env
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - python=3.10
+  - pandas
+  - scikit-learn
   - pip
   - pip:
-      - pandas
       - mlflow
-      - scikit-learn

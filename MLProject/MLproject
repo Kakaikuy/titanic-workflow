@@ -1,7 +1,10 @@
-name: titanic_model_project
+name: titanic-survivor-prediction
 
 conda_env: conda.yaml
 
 entry_points:
   main:
-    command: "python modelling.py"
+    parameters:
+      data_path: {type: str, default: "titanic_preprocessing.csv"}
+    command: >
+      python mlflow_train_yaml.py --data_path {data_path}
