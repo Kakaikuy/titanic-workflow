@@ -14,7 +14,7 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v3
 
-    - name: Set up Conda
+    - name: Set up Miniconda
       uses: conda-incubator/setup-miniconda@v2
       with:
         environment-file: MLProject/conda.yaml
@@ -22,7 +22,7 @@ jobs:
         auto-activate-base: false
 
     - name: Run MLflow Project
-      shell: bash -l {0}
+      shell: bash -l {0}  # <== penting agar Conda dikenali
       run: |
         cd MLProject
         mlflow run . --env-manager=local
