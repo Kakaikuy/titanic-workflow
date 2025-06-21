@@ -1,0 +1,5 @@
+data_path: "titanic_preprocessing.csv"
+experiment_name: "Prediksi-Titanic-Survivor"
+run_name: "Titanic-RandomForest"
+random_state: 42
+test_size: 0.2
