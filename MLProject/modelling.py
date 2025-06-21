@@ -6,7 +6,7 @@ import mlflow
 import mlflow.sklearn
 
 # Konfigurasi MLflow lokal
-mlflow.set_tracking_uri("file:///C:/Users/ASUS/Documents/Python_project/MSML_rev/SMSML_Kakai/mlruns")
+mlflow.set_tracking_uri("mlruns")
 mlflow.set_experiment("Prediksi-Titanic-Survivor")
 
 # Autolog aktif
