@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/ASUS/Documents/Python_project/MSML/Workflow-CI/MLProject/mlruns/298992865679086753/ca8da970ee0146798eb7da1d17d434b3/artifacts
+end_time: 1750444250787
+entry_point_name: ''
+experiment_id: '298992865679086753'
+lifecycle_stage: active
+run_id: ca8da970ee0146798eb7da1d17d434b3
+run_name: ci_train_run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750444228456
+status: 3
+tags: []
+user_id: ASUS

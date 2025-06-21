@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/ASUS/Documents/Python_project/MSML/Workflow-CI/MLProject/mlruns/298992865679086753/models/m-f28323ea48774b68b10e69410374d347/artifacts
+creation_timestamp: 1750444228779
+experiment_id: '298992865679086753'
+last_updated_timestamp: 1750444250118
+model_id: m-f28323ea48774b68b10e69410374d347
+model_type: null
+name: model
+source_run_id: ca8da970ee0146798eb7da1d17d434b3
+status: 2
+status_message: null
